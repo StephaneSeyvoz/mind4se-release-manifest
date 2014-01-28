@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="ssz" fetch="https://github.com/StephaneSeyvoz" />
+  <remote name="local" fetch=".." />
+  
+  <default remote="ssz" revision="refs/heads/master" sync-j="1" />
+  <!--default remote="local" revision="refs/heads/master" sync-j="1" /-->
+
+  <project path="mind4se-compiler/mind-compiler" name="mind-compiler" remote="ssz" />
+  <project path="mind4se-compiler/Optimization-Backend" name="Optimization-Backend" remote="ssz" />
+  <project path="mind4se-compiler/single-interface-plugin" name="single-interface-plugin" remote="ssz" />
+  <project path="mind4se-compiler/global-extensions" name="global-extensions" remote="ssz" />
+  <project path="mind4se-compiler/dumpdot-annotation" name="dumpdot-annotation" remote="ssz" />
+  <project path="mind4se-compiler/mindot-viewer" name="mindot-viewer" remote="ssz" />
+  <project path="mind4se-compiler/mindunit" name="mindunit" remote="ssz" />
+  <project path="mind4se-compiler/iar-extension" name="iar-extension" remote="ssz" />
+  <project path="mind4se-compiler/garbage-composite-annotation" name="garbage-composite-annotation" remote="ssz" revision="anonymous" />
+  
+  <project path="mind4se-compiler" name="git_mind4sepom" remote="local" revision="master" />
+
+</manifest>
