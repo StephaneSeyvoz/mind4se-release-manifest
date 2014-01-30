@@ -13,6 +13,6 @@
   <project path="mind4se-compiler/iar-extension" name="iar-extension" remote="github-ssz" />
   <project path="mind4se-compiler/garbage-composite-annotation" name="garbage-composite-annotation" remote="github-ssz" revision="anonymous" />
   
-  <project path="mind4se-compiler" name="mind4se-release-pom" remote="github-gja" revision="refs/heads/master" />
+  <project path="mind4se-compiler/mind4se-compiler" name="mind4se-release-pom" remote="github-gja" revision="refs/heads/master" />
 
 </manifest>
