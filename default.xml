@@ -3,16 +3,16 @@
 
   <remote name="github-ssz" fetch="https://github.com/StephaneSeyvoz" />  <remote name="github-gja" fetch="https://github.com/geoffroyjabouley" />  
   <default remote="github-ssz" revision="refs/heads/master" sync-j="1" />
-  <project path="mind4se-compiler/mind-compiler" name="mind-compiler" remote="github-ssz" />
-  <project path="mind4se-compiler/Optimization-Backend" name="Optimization-Backend" remote="github-ssz" />
-  <project path="mind4se-compiler/single-interface-plugin" name="single-interface-plugin" remote="github-ssz" />
-  <project path="mind4se-compiler/global-extensions" name="global-extensions" remote="github-ssz" />
-  <project path="mind4se-compiler/dumpdot-annotation" name="dumpdot-annotation" remote="github-ssz" />
-  <project path="mind4se-compiler/mindot-viewer" name="mindot-viewer" remote="github-ssz" />
-  <project path="mind4se-compiler/mindunit" name="mindunit" remote="github-ssz" />
-  <project path="mind4se-compiler/iar-extension" name="iar-extension" remote="github-ssz" />
-  <project path="mind4se-compiler/garbage-composite-annotation" name="garbage-composite-annotation" remote="github-ssz" revision="anonymous" />
+  <project path="mind-compiler" name="mind-compiler" remote="github-ssz" />
+  <project path="Optimization-Backend" name="Optimization-Backend" remote="github-ssz" />
+  <project path="single-interface-plugin" name="single-interface-plugin" remote="github-ssz" />
+  <project path="global-extensions" name="global-extensions" remote="github-ssz" />
+  <project path="dumpdot-annotation" name="dumpdot-annotation" remote="github-ssz" />
+  <project path="mindot-viewer" name="mindot-viewer" remote="github-ssz" />
+  <project path="mindunit" name="mindunit" remote="github-ssz" />
+  <project path="iar-extension" name="iar-extension" remote="github-ssz" />
+  <project path="garbage-composite-annotation" name="garbage-composite-annotation" remote="github-ssz" revision="anonymous" />
   
-  <project path="mind4se-compiler/mind4se-compiler" name="mind4se-release-pom" remote="github-gja" revision="refs/heads/master" />
+  <project path="mind4se-compiler" name="mind4se-release-pom" remote="github-gja" revision="refs/heads/master" />
 
 </manifest>
