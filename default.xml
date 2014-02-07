@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="github-ssz" fetch="https://github.com/StephaneSeyvoz" />  <remote name="github-gja" fetch="https://github.com/geoffroyjabouley" />  
-  <default remote="github-ssz" revision="refs/heads/master" sync-j="1" />
+  <default remote="github-ssz" revision="refs/heads/master" sync-j="4" sync-c="true" />
   <project path="mind-compiler" name="mind-compiler" remote="github-ssz" />
   <project path="Optimization-Backend" name="Optimization-Backend" remote="github-ssz" />
   <project path="single-interface-plugin" name="single-interface-plugin" remote="github-ssz" />
@@ -13,6 +13,6 @@
   <project path="iar-extension" name="iar-extension" remote="github-ssz" />
   <project path="garbage-composite-annotation" name="garbage-composite-annotation" remote="github-ssz" revision="anonymous" />
   
-  <project path="mind4se-compiler" name="mind4se-release-pom" remote="github-gja" revision="refs/heads/master" />
+  <project path="." name="mind4se-release-pom" remote="github-gja" revision="refs/heads/master" />
 
 </manifest>
