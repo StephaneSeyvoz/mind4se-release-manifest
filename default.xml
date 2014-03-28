@@ -1,16 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
+
 <manifest>
 
-  <remote name="github-ssz" fetch="https://github.com/StephaneSeyvoz" />  <remote name="github-gja" fetch="https://github.com/geoffroyjabouley" />  <remote name="github-mind4se" fetch="https://github.com/Mind4SE" />  
-  <project path="mind-compiler" name="mind-compiler" remote="github-ssz" sync-c="true" revision="master" />
-  <project path="Optimization-Backend" name="Optimization-Backend" remote="github-ssz" sync-c="true" revision="master" />
-  <project path="global-extensions" name="global-extensions" remote="github-ssz" sync-c="true" revision="master" />
-  <project path="dumpdot-annotation" name="dumpdot-annotation" remote="github-ssz" sync-c="true" revision="master" />
-  <project path="mindot-viewer" name="mindot-viewer" remote="github-ssz" sync-c="true" revision="master" />
-  <project path="mindunit" name="mindunit" remote="github-ssz" sync-c="true" revision="master" />
-  <project path="iar-extension" name="iar-extension" remote="github-ssz" sync-c="true" revision="master" />
-  <project path="garbage-composite-annotation" name="garbage-composite-annotation" remote="github-ssz" sync-c="true" revision="master" />
-  <project path="mindoc" name="mindoc" remote="github-mind4se" sync-c="true" revision="plugin_integration" />  <project path="mind-cpp" name="mind-cpp" remote="github-mind4se" sync-c="true" revision="master" />  
-  <project path="." name="mind4se-release-pom" remote="github-gja" sync-c="true" revision="master" />
+	<remote name="github-ssz" fetch="https://github.com/StephaneSeyvoz" />
+	<remote name="github-gja" fetch="https://github.com/geoffroyjabouley" />
+	<remote name="github-mind4se" fetch="https://github.com/Mind4SE" />
+
+	<project path="mind-compiler" name="mind-compiler" remote="github-ssz" sync-c="true" revision="master" />
+	<project path="Optimization-Backend" name="Optimization-Backend" remote="github-ssz" sync-c="true" revision="master" />
+	<project path="global-extensions" name="global-extensions" remote="github-ssz" sync-c="true" revision="master" />
+	<project path="dumpdot-annotation" name="dumpdot-annotation" remote="github-ssz" sync-c="true" revision="master" />
+	<project path="mindot-viewer" name="mindot-viewer" remote="github-ssz" sync-c="true" revision="master" />
+	<project path="mindunit" name="mindunit" remote="github-ssz" sync-c="true" revision="master" />
+	<project path="iar-extension" name="iar-extension" remote="github-ssz" sync-c="true" revision="master" />
+	<project path="garbage-composite-annotation" name="garbage-composite-annotation" remote="github-ssz" sync-c="true" revision="master" />
+
+	<project path="mindoc" name="mindoc" remote="github-mind4se" sync-c="true" revision="plugin_integration" />
+	<project path="mind-cpp" name="mind-cpp" remote="github-mind4se" sync-c="true" revision="master" />
+
+	<project path="." name="mind4se-release-pom" remote="github-gja" sync-c="true" revision="master" />
 
 </manifest>
