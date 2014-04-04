@@ -16,7 +16,7 @@
 	<project path="garbage-composite-annotation" name="garbage-composite-annotation" remote="github-ssz" sync-c="true" revision="master" />
 
 	<project path="mindoc" name="mindoc" remote="github-mind4se" sync-c="true" revision="plugin_integration" />
-	<project path="mind-cpp" name="mind-cpp" remote="github-mind4se" sync-c="true" revision="master" />
+	<project path="mind-cpp" name="mind-cpp" remote="github-mind4se" sync-c="true" revision="nmf-style" />
 
 	<project path="." name="mind4se-release-pom" remote="github-gja" sync-c="true" revision="master" />
 
